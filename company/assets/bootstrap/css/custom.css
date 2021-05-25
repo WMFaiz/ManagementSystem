@@ -1,0 +1,175 @@
+.comp_logo>input {
+    display: none;
+    cursor: pointer;
+}
+
+.jobcard {
+    font-size: 1px;
+    background-color: rgb(200, 255, 254);
+    margin: 10px;
+    padding: 10px;
+}
+
+.jobcard p {
+    width: 100px;
+    margin-top: 10px;
+    display: inline;
+    background-color: rgb(200, 255, 254);
+    padding: 0px 10px 0px 10px;
+    font-weight: bold;
+}
+
+.jobcard p input {
+    border: none;
+    outline: none;
+    cursor: default;
+    text-overflow: ellipsis;
+    background-color: rgb(200, 255, 254);
+}
+
+.jobcard .viewThisJob {
+    font-size: 20px;
+    position: absolute;
+    right: 25px;
+    width: 100px;
+    height: 170px;
+    margin-top: -149px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(145, 189, 255);
+    transition: 0.3s;
+}
+
+.jobcard .viewThisJob:hover {
+    background-color: rgb(0, 102, 255);
+    transition: 0.3s;
+}
+
+.populate_msg {
+    font-size: 12px;
+}
+
+.populate_msg .message_card {
+    background-color: rgb(191, 255, 139);
+    margin-right: 150px;
+    padding: 10px 10px 10px 10px;
+}
+
+.populate_msg .message_card .title .goToReply {
+    font-size: 15px;
+    position: absolute;
+    right: 15px;
+    width: 100px;
+    height: 65px;
+    margin-top: -30px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(200, 241, 255);
+    transition: 0.3s;
+}
+
+.populate_msg .message_card .title .goToReply:hover {
+    background-color: rgb(139, 226, 255);
+    transition: 0.3s;
+}
+
+.populate_msg .message_card .title .moreMessage {
+    transform: rotateX(180deg);
+    font-size: 15px;
+    position: absolute;
+    right: 15px;
+    width: 100px;
+    height: 20px;
+    margin-top: 35px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(160, 255, 160);
+    transition: 0.3s;
+    z-index: 10px;
+    font-weight: bolder;
+}
+
+.populate_msg .message_card .title .moreMessage:hover {
+    background-color: rgb(108, 255, 108);
+    transition: 0.3s;
+}
+
+.jobcard form .deleteMessage {
+    font-size: 15px;
+    position: absolute;
+    right: 25px;
+    margin-top: -9px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    outline: transparent;
+    background-color: rgb(218, 60, 60);
+    transition: 0.3s;
+    z-index: 10;
+    font-weight: bolder;
+    border-radius: 10px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.jobcard form .deleteMessage:hover {
+    background-color: rgb(158, 60, 60);
+    transition: 0.3s;
+}
+
+.jobcard form .deleteMessageConfirm {
+    text-align: left;
+    font-size: 12px;
+    position: absolute;
+    padding-left: 20px;
+    right: 25px;
+    margin-top: -9px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 80, 80);
+    transition: 0.3s;
+    z-index: 5;
+    font-weight: bolder;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.jobcard form .deleteMessageConfirm:hover {
+    background-color: rgb(255, 30, 30);
+    transition: 0.3s;
+}
+
+.jobinfo p input:focus {
+    outline: none;
+    appearance: none;
+    border: 0;
+}
+
+#wthlist_section .search_student {
+    margin-top: 20px;
+    display: inline-block;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+
+#wthlist_section .search_student p {
+    display: table-cell;
+}
+
+.viewProfile{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 5px;
+    background-color: rgb(255, 236, 131);
+}
+
+.viewProfile a {
+    color: black;
+    text-decoration: none;
+}
